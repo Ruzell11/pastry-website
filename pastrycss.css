@@ -1,0 +1,159 @@
+
+body{
+    background-color: #ff9966;
+}
+
+
+.logo{
+  height: 100px;
+  width: 150px;
+}
+@media screen and (max-width: 760px) {
+  .logo {
+   display: none;
+  }
+}
+
+.picture1{
+    height: 20rem;
+    width: 50rem;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    border: 3px solid  lightsalmon;
+    transition: all .3s ease;
+    
+    
+  }
+  .picture1:hover{
+    filter: blur(px);
+    -webkit-filter: blur(0px);
+  
+  }
+  .picture0{
+    height: 40rem;
+    opacity: .7;
+    border: 5px solid  lightsalmon;
+    
+  }
+  
+  .categories .categories_item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right:10px ;
+
+  }
+
+  .categories .categories_text{
+    position: absolute;
+    left: 50px;
+    
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+  }
+
+
+  .categories .categories_item .categories_text{
+    position: absolute;
+    left: 50px; max-width: 300px;
+    
+  }
+  .categories_text a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  
+   
+    
+    
+  }
+
+
+  .categories_text p{
+    margin-bottom: 10px;
+  }
+
+  .spad{
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+  }
+
+
+ .product.section-title{
+     columns: 000;
+     font-weight: 600;
+     display: inline-block;
+
+     
+
+  }
+  .product-item{
+    margin-bottom: 35px;
+  }
+.product-item-pic{
+  position: relative;
+   overflow: hidden;
+
+}
+
+.label{
+  position:absolute ;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 600;
+  left: 10px;
+  top: 10px;
+ font-size:15px;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+margin-left: 5px;
+ background-color: darksalmon;
+
+ padding: 10px;
+
+
+
+
+
+}
+ 
+
+
+.products{
+   height: 18rem;
+   width: 15rem;
+   border-radius: 40px;
+   transition: all .5s ease;
+   
+   
+ }
+
+ .products:hover{
+   width: 16rem;
+   height: 19rem;
+ }
+
+ .icon-cart{
+  position:absolute ;
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 70px;
+  width: 2rem;
+  background-color: darksalmon;
+  padding: 4px;
+  
+
+ }
+
+ .footer {
+
+
+  width: 100%;
+ 
+  color: white;
+  text-align: center;
+}
